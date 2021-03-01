@@ -12,7 +12,6 @@ module.exports = function getSeason(data) {
 
   let month = data.getUTCMonth();
   newdate = month
-  console.log(dat)
 if (month === 11 || month === 1 || month === 0) {
   return 'winter'
 } else if(month === 2 || month === 3 || month === 4) {

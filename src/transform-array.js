@@ -20,5 +20,3 @@ module.exports = function transform(arr) {
 
   return arr2.filter((e) => e != undefined && e != '--double-next' && e != '--discard-next' && e != '--discard-prev' && e != '--double-prev');
 };
-
-
