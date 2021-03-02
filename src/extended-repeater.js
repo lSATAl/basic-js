@@ -1,6 +1,6 @@
-module.exports = function repeater(str = ``, {repeatTimes = 1, separator = `+`, addition = ``, additionRepeatTimes = 1, additionSeparator}) {
+module.exports = function repeater(str = ``, {repeatTimes = 1, separator = `+`, addition = ``, additionRepeatTimes = 1, additionSeparator = '|'}) {
   let newArray = [];
-
+console.log(str)
   for (let i = 0; i < additionRepeatTimes; i++) {
     newArray.push(`${addition}`);
   }
